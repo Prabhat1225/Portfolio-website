@@ -1,0 +1,43 @@
+body{
+    background-color: gray;
+}
+.services{
+    /* height: 500px; */
+    /* margin-top: 500px; */
+    font-size: 35px;
+    }
+    .hii{
+        display: flex;
+        /* font-size: 30px; */
+       
+    }
+
+    .apk{
+        
+        margin-left: 100px;
+        /* margin-top: 10px; */
+        border-radius: 5px;
+        color: white;
+        padding: 0px;
+        line-height: 0px;
+        
+        
+    }
+    .awd{
+        
+        margin-left: 100px;
+        /* margin-top: 10px; */
+        border-radius: 5px;
+        color: white;
+        padding: 0px;
+        line-height: 0px;
+    }
+    .element img{
+        cursor: pointer;
+    transition-duration: .5s;
+    clear: auto;
+    }
+    .element img:hover{
+        width:400px;
+        height: 400px;
+    }

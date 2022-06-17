@@ -1,0 +1,91 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(15, 14, 14, 0.618);
+    background-image: url(sushant.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 12px;
+}
+
+.nav h1 {
+    font-size: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: azure;
+    text-shadow: 2px 2px 3px rgb(14, 14, 14);
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li {
+    /* list-style: none; */
+    display: inline-block;
+}
+
+.nav ul li a {
+    text-shadow: 2px 2px 3px rgb(14, 14, 14);
+    padding-right: 60px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav ul li a:hover {
+    color: rgb(149, 236, 135);
+}
+
+.quotes {
+    display: block;
+    width: 40%;
+    padding-left: 100px;
+}
+
+.quotes .head1 {
+    font-size: 50px;
+    color: rgb(59, 61, 62);
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgb(14, 14, 14);
+}
+.quotes .head {
+    font-size: 50px;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgb(14, 14, 14);
+}
+
+.quotes .para {
+    font-size: 25px;
+    color: rgb(249, 243, 243);
+    font-style: unset;
+    text-shadow: 2px 2px 3px rgb(14, 14, 14);
+}
+
+.icons{
+    padding-left: 110px;
+    padding-top: 40px;
+}
+.icons img{
+    cursor:pointer;
+    margin-left: 50px;
+}
+
+
+    
+    
